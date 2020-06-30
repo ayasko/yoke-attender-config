@@ -18,4 +18,4 @@ server:
 
 yoke:
   notify:
-    url: http://localhost:8582/event
+    url: http://yoke-notify/event
