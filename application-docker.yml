@@ -7,3 +7,7 @@ spring:
 
   datasource:
     url: jdbc:postgresql://yoke-postgres:5432/postgres
+    
+logback:
+  destination:
+    url: yoke-logstash
