@@ -8,6 +8,9 @@ spring:
   datasource:
     url: jdbc:postgresql://yoke-postgres:5432/postgres
     
+  zipkin:
+    baseUrl: http://yoke-zipkin:9411    
+    
 logback:
   destination:
     url: yoke-logstash
